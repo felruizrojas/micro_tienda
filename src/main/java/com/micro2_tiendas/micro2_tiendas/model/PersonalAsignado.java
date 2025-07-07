@@ -24,4 +24,6 @@ public class PersonalAsignado {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "tienda_id", nullable = false)
     private Tienda tienda;
+
+
 }
